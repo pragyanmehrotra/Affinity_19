@@ -25,7 +25,7 @@ func main() {
 	fmt.Println("Encrypted message: ", encryptedMessage)
 }
 ```
-Well we can cleary see that an integer argument must be passed to the program, then we call `getKeys()` to get the `publicKey` and then the message is simply encrypted by the `publickey`, which is what we were given (LOL obviously).
+Well we can cleary see that an integer argument must be passed to the program, then we call `getKeys()` to get the `publicKey` and then the message is simply encrypted by the `publickey`.
 
 Before moving on to the `getKeys()` function let's have a look at the `encrypt()` function,
 
