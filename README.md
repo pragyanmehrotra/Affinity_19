@@ -36,7 +36,7 @@ func encrypt(message *big.Int, publicKey *big.Int) *big.Int {
 }
 ```
 
-Nice!! So it's the (Rabin cryptosystem)[https://en.wikipedia.org/wiki/Rabin_cryptosystem] we are up against. Now moving on to the `getKeys()` function let's see what it does.
+Nice!! So it's the [Rabin cryptosystem](https://en.wikipedia.org/wiki/Rabin_cryptosystem) we are up against. Now moving on to the `getKeys()` function let's see what it does.
 
 ```Go
 func getKeys() (privateKeys, *big.Int, error) {
