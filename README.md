@@ -65,12 +65,11 @@ Hmmmmmmm, have a look at the definition of p and q, too many function calls, pro
 
 Basically, We got -  (f->factorBigInt)
 
-$$
-p = 4f^2 + 3f + 7351
-$$
-$$
-q = 19f^2 + 18f + 1379
-$$
+
+$ p = 4f^2 + 3f + 7351 $
+
+$ q = 19f^2 + 18f + 1379 $
+
 
 Now from the `getKeys()` function we are sure that p, q are primes and our `publicKey` = pq. Now the problem got even easier, although for a good while I completely ignored the fact that p and q were generated like this and wasted time on finding security flaws in `SetBytes()` and `rand.Read()` since they seemed to be generating the same numbers on every run, but moving on from this. Now, we know that 
 
