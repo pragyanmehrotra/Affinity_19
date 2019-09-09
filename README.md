@@ -65,7 +65,7 @@ Hmmmmmmm, have a look at the definition of p and q, too many function calls, pro
 
 Basically, We got -  (f->factorBigInt)
 
-```mathML
+```html
 p = 4f<sup>2</sup> + 3f + 7351
 
 q = 19f<sup>2</sup> + 18f + 1379
