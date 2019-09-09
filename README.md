@@ -80,9 +80,9 @@ which evaluates to
 
 n = 76f<sup>4</sup> + 129f<sup>3</sup> + 145239f<sup>2</sup> + 136455f + 10137029
 
-so we simply needed to find the solution to the above polynomial since we can see all the coefficients are positive thus the above polynomial is monotonically increasing in the positive domain. So we can easily use *binary search* to find it's solution. Once we have the solutions we have p and q which pretty much solves the problem.
+so we simply needed to find the solution to the above polynomial since we can see all the coefficients are positive thus the above polynomial is monotonically increasing in the positive domain. So we can easily use **binary search** to find it's solution. Once we have the solutions we have p and q which pretty much solves the problem.
 
-### Final Exploit
+### Final Solution
 
 ```python
 n = 825321266319602503456977005474981604870402407335194099572979028339224439122246767155608828548258547874076592811333439775645799852274012447643240804287007452861599291275940862131595970247906775549656137041013432613989092491697319873901497907382123859210758943466373193369020798176192106305153278525778145033
